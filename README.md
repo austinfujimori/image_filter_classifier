@@ -8,7 +8,10 @@ We achieved 83% accuracy on a binary classification problem of a test set includ
 
 # Use Case
 
-The final ensemble model and isntructions to use it are in **FINAL_camera_ENSEMBLE_Binary.ipynb**.
+Download the checkpoints from this the FINAL Checkpoints folder in this __drive:https://drive.google.com/drive/folders/1av6IIJIUVnEDiEEZSur6huc_NYrP8xKx?usp=drive_link__ and move them to the **checkpoints** folder.
+
+We test and create the final ensemble model and isntructions to use it are in the **src** folder in the file **FINAL_camera_ENSEMBLE_Binary.ipynb**.
+
 
 # Dataset
 
@@ -42,9 +45,13 @@ Our methods of applying the filters and the past filters and methods can be foun
 
 # Training
 
+Training files can be found in the **experiments** folder.
+
 We trained a binary classifier for each filter in **camera_CNN_Binary.ipynb**. Based on previous trials, we found that simple CNN or simple two layer CNNs worked best, so these were the two models used. Converged very quickly, within 2 epochs generally got 80+% or 90+%.
 
 # Past Trials
+
+Past training files can also be found in the **experiments** folder.
 
 We first started with a multiclass CNN for 6 camera filters and our dataset was a class directory of photos of men, which was around 4k in size. This was not very helpful. 
 
