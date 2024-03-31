@@ -8,7 +8,7 @@ We achieved 83% accuracy on a binary classification problem of a test set includ
 
 # Use Case
 
-Download the checkpoints from this the FINAL Checkpoints folder in this __drive:https://drive.google.com/drive/folders/1av6IIJIUVnEDiEEZSur6huc_NYrP8xKx?usp=drive_link__ and move them to the **checkpoints** folder.
+Download the checkpoints from this the FINAL Checkpoints folder in this __drive:https://drive.google.com/drive/folders/1av6IIJIUVnEDiEEZSur6huc_NYrP8xKx?usp=drive_link__ and move them to a fold called **checkpoints** in src. You can also adjust the folder paths.
 
 We test and create the final ensemble model and isntructions to use it are in the **src** folder in the file **FINAL_camera_ENSEMBLE_Binary.ipynb**.
 
